@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 50vw;
+  background-position: center center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  color: lightyellow;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  /* margin-top: -2rem; */
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.big-text {
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+.black {
+  font-weight: bold;
+  text-align: center;
+  /* color: black; */
+}
+.black span {
+  font-size: 1.3rem;
+}
